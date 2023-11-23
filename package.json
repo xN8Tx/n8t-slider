@@ -1,0 +1,44 @@
+{
+  "name": "n8t-slider",
+  "version": "1.0.0",
+  "description": "Simple full customable slider for HTML",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint ./src --ext .ts",
+    "lint:fix": "eslint ./src --ext .ts --fix",
+    "update": "rollup -c && npm version patch && npm publish"
+  },
+  "type": "module",
+  "keywords": [
+    "slider",
+    "html",
+    "photo",
+    "carousel",
+    "slider carousel",
+    "simple"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xN8Tx/n8t-slider.git"
+  },
+  "author": "Evgeniy <evgeniyshteyn@yandex.ru> Shteyn",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.0",
+    "rollup": "^4.5.0",
+    "rollup-plugin-scss": "^4.0.0",
+    "sass": "^1.69.5",
+    "tsc": "^2.0.4"
+  },
+  "files": [
+    "dist"
+  ]
+}
