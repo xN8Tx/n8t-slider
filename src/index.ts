@@ -215,7 +215,10 @@ class N8TSlider {
     this.deleteIntervalScroll();
   }
   private paginationClickHandler(event: MouseEvent) {
-    if ((event.target as HTMLElement).getAttribute('slider-pagination-item') === "") {
+    if (
+      (event.target as HTMLElement).getAttribute('slider-pagination-item') ===
+      ''
+    ) {
       const indexOfElement = Number(
         (event.target as HTMLElement).getAttribute('slider-index'),
       );
