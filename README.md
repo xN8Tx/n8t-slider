@@ -16,7 +16,7 @@ npm install n8t-slider
 ### HTML
 
 
->**⚠️ Add [`n8t-slider-style.min.css`](https://?github.com/xN8Tx/n8t-slider/blob/main/dist/style/n8t-slider-style.min.css) to HTML for correct work ⚠️**
+>**⚠️ Add [`n8t-slider-style.min.css`](https://github.com/xN8Tx/n8t-slider/blob/main/dist/style/n8t-slider-style.min.css) to HTML for correct work ⚠️**
 
 
 
