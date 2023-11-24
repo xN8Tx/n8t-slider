@@ -1,5 +1,5 @@
-> **N8T Slider**
-> Simple and lightweight carousel slider for HTML
+<h1 align="center">N8T Slider</h1>
+<p align="center">Simple and lightweight carousel slider for HTML</p>
 
 ---
 
